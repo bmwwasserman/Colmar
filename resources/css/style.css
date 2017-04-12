@@ -1,0 +1,120 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.85rem;
+}
+
+/* Header Section */
+header {
+  width: 100%;
+  max-height: 64px;
+  background-color: white;
+}
+
+header .top {
+  justify-content: space-between;
+  padding: 10px 24px;
+}
+
+header .logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+header .bold {
+  font-weight: bold;
+  color: black;
+}
+
+header img {
+  height: 50px;
+}
+
+header nav {
+  font-size: 0.85rem;
+}
+
+header nav a {
+  padding: 8px;
+}
+
+/* First Section or Banner Section*/
+body .banner {
+  background-color: lightgrey;
+  width: 94%;
+  padding: 32px 24px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.banner .outside img {
+  width: 60%;
+}
+
+.banner .inside {
+  max-width: 300px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.banner .inside h1 {
+  padding-bottom: 24px;
+  font-weight: bold;
+}
+
+.banner .inside h3 {
+  padding-bottom: 24px;
+}
+
+.banner .box {
+  background-color: #250020;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Second Section or Information Section */
+.two {
+  background-color: white;
+  width: 94%;
+  padding: 32px 24px;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.two .outside img {
+  width: 60%;
+}
+
+.two .outside {
+  align-items: flex-start;
+}
+
+.two .inside {
+  max-width: 423px;
+  padding-left: 40px;
+}
+
+.two .inside .box {
+  display: block;
+}
