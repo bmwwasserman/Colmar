@@ -124,9 +124,9 @@ header nav a {
 }
 
 .banner .box {
-  background-color: saddlebrown;
+  background-color: dimgray;
   color: white;
-  padding: 8px;
+  padding: 16px;
   text-align: center;
 }
 
